@@ -57,3 +57,10 @@ docker compose up
 ```
 yarn dev
 ```
+These logs printed in terminal mean the server is running successfully:
+```
+🚀 Server ready at http://localhost:4000/graphql
+🚀 Subscription endpoint ready at ws://localhost:4000/graphql
+```
+
+- Open Postman (install at https://www.postman.com/downloads/), add a new GraphQL request, use the http://localhost:4000/graphql URL to introspect the schema and test the queries
